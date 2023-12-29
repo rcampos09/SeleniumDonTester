@@ -20,7 +20,7 @@ public class GetEnvironment {
 
         try (FileWriter fileWriter = new FileWriter(filePath)) {
             properties.store(fileWriter, "Configuración del entorno");
-            System.out.println("Archivo environment.properties creado con éxito en: " + filePath);
+            //System.out.println("Archivo environment.properties creado con éxito en: " + filePath);
         } catch (IOException e) {
             e.printStackTrace();
         }

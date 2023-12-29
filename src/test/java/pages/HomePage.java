@@ -59,10 +59,8 @@ public class HomePage {
             Alert alert = driver.switchTo().alert();
             String alertText = alert.getText();
             if (alertText.equals("Inicio de sesión exitoso")) {
-                System.out.println("El mensaje es el mismo: " + alertText);
                 return true;
             } else {
-                System.out.println("El mensaje es diferente: " + alertText);
                 return false;
             }
         } catch (Exception e) {

@@ -11,7 +11,7 @@ import static io.qameta.allure.SeverityLevel.CRITICAL;
 
 public class TestClass01 extends ConfigClass {
 
-    @Test(dataProvider = "loginDataProvider", dataProviderClass = SetDataProvider.class)
+    @Test(dataProvider = "loginDataProvider", dataProviderClass = SetDataProvider.class, testName = "TestClass01")
     @Description("Esta prueba intenta iniciar sesión en el sitio web utilizando un nombre de usuario y una contraseña. Falla si ocurre algún error.")
     @Severity(CRITICAL)
     @Owner("@DonTester")

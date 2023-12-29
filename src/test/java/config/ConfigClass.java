@@ -5,9 +5,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import utils.GetEnvironment;
+import utils.GetTestListener;
 
-
+@Listeners(GetTestListener.class)
 public class ConfigClass {
 
     protected WebDriver driver;
@@ -41,9 +43,12 @@ public class ConfigClass {
         String urlEnv = "https://rcampos09.github.io/demo-Shop-t-shirt/";
 
         // Imprimir la información
-        System.out.println("Sistema Operativo: " + osEnv);
-        System.out.println("Usuario: " + userEnv);
-        System.out.println("URL actual: " + urlEnv);
+        System.out.println("*************************************************************");
+        System.out.println("\uD83D\uDCE1 Información del entorno \uD83D\uDCE1");
+        System.out.println("- Sistema Operativo: " + osEnv);
+        System.out.println("- Usuario: " + userEnv);
+        System.out.println("- URL actual: " + urlEnv);
+        System.out.println("*************************************************************");
 
         // Llamar al método saveEnvironmentInfo de la clase GetEnvironment
         GetEnvironment.saveEnvironmentInfo(osEnv, userEnv, urlEnv);

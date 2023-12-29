@@ -31,6 +31,13 @@ mvn test -Dtest=TestClass
 ```
 Este comando ejecutará las pruebas definidas en la clase TestClass. Asegúrese de que el WebDriver esté configurado correctamente en la clase ConfigClass.
 
+## Console-log
+Se agrega un log mas moderno unsaod emojis, implementando Listener de TestNG para mostrar Resultados:
+
+Resultado de console-log:
+
+![Imagen Reporte:](./image/console-log.png)
+
 
 ## Informe Allure
 Después de ejecutar las pruebas, genere el informe Allure con el siguiente comando:
