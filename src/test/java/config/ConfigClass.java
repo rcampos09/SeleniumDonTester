@@ -3,7 +3,10 @@ package config;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
+import utils.GetEnvironment;
+
 
 public class ConfigClass {
 
@@ -28,5 +31,21 @@ public class ConfigClass {
         if (driver != null) {
             driver.quit();
         }
+    }
+
+    @AfterSuite
+    public void afterSuite() {
+        // Obtener información del sistema después de que se hayan ejecutado todos los test
+        String osEnv = System.getProperty("os.name");
+        String userEnv = System.getProperty("user.name");
+        String urlEnv = "https://rcampos09.github.io/demo-Shop-t-shirt/";
+
+        // Imprimir la información
+        System.out.println("Sistema Operativo: " + osEnv);
+        System.out.println("Usuario: " + userEnv);
+        System.out.println("URL actual: " + urlEnv);
+
+        // Llamar al método saveEnvironmentInfo de la clase GetEnvironment
+        GetEnvironment.saveEnvironmentInfo(osEnv, userEnv, urlEnv);
     }
 }
