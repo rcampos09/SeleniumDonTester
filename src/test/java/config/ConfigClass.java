@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import utils.GetEnvironment;
 import utils.GetTestListener;
+import utils.GetUrlsEnvironmet;
 
 @Listeners(GetTestListener.class)
 public class ConfigClass {
@@ -21,7 +22,7 @@ public class ConfigClass {
         driver = new ChromeDriver();
 
         // Abrir una URL específica
-        String url = "https://rcampos09.github.io/demo-Shop-t-shirt/"; // Reemplaza con la URL que desees abrir
+        String url = GetUrlsEnvironmet.getEnvironmentURL(); // Obtener la URL según el ambiente seleccionado
         // Elimina todas las Cookies del navegador
         driver.manage().deleteAllCookies();
         driver.get(url);
@@ -40,13 +41,15 @@ public class ConfigClass {
         // Obtener información del sistema después de que se hayan ejecutado todos los test
         String osEnv = System.getProperty("os.name");
         String userEnv = System.getProperty("user.name");
-        String urlEnv = "https://rcampos09.github.io/demo-Shop-t-shirt/";
+        String urlEnv = GetUrlsEnvironmet.getNameEnv();
+        String nameEnv = GetUrlsEnvironmet.getEnvironmentURL();
 
         // Imprimir la información
         System.out.println("*************************************************************");
         System.out.println("\uD83D\uDCE1 Información del entorno \uD83D\uDCE1");
         System.out.println("- Sistema Operativo: " + osEnv);
         System.out.println("- Usuario: " + userEnv);
+        System.out.println("- Ambiente Actual: " + nameEnv);
         System.out.println("- URL actual: " + urlEnv);
         System.out.println("*************************************************************");
 
