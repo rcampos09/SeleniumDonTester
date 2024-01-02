@@ -2,6 +2,8 @@ package config;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
@@ -9,6 +11,12 @@ import org.testng.annotations.Listeners;
 import utils.GetEnvironment;
 import utils.GetTestListener;
 import utils.GetUrlsEnvironmet;
+import utils.GetWebDriverRemote;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 @Listeners(GetTestListener.class)
 public class ConfigClass {
@@ -16,15 +24,16 @@ public class ConfigClass {
     protected WebDriver driver;
 
     @BeforeClass
-    public void setUp() {
-        // Configurar el WebDriver
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/mac/chromedriver");
-        driver = new ChromeDriver();
-
+    public void setUp() throws MalformedURLException {
+        // Configurar el WebDriver Local o Hub(Selenoid)
+        driver = GetWebDriverRemote.createWebDriver();
         // Abrir una URL específica
         String url = GetUrlsEnvironmet.getEnvironmentURL(); // Obtener la URL según el ambiente seleccionado
         // Elimina todas las Cookies del navegador
         driver.manage().deleteAllCookies();
+        // Maximizar Pantalla
+        driver.manage().window().maximize();
+        // Obtiene la URL a Utilizar
         driver.get(url);
     }
 
