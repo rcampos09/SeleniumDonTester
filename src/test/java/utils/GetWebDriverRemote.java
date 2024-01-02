@@ -12,15 +12,17 @@ import java.util.HashMap;
 
 public class GetWebDriverRemote {
 
-    public static WebDriver createWebDriver() throws MalformedURLException {
+    public static WebDriver createWebDriver() {
         WebDriver driver; // Declarar la variable driver aquí
         String remoteDriver = System.getProperty("remote", "true");
 
-        if (remoteDriver.equals("false")) {
-            // Por defecto se utiliza Chrome (lastest)
+        if (remoteDriver.equals("false")) {// Por defecto se utiliza Chrome (lastest)
             System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/mac/chromedriver");
+            // Configurar las opciones de Chrome para ejecutar en modo sin cabeza
+            ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.addArguments("--headless");
             // Inicializar el controlador de Chrome con las opciones configuradas
-             driver = new ChromeDriver();
+            driver = new ChromeDriver();
         } else {
             ChromeOptions options = new ChromeOptions();
             // Por defecto se utiliza Chrome (120.0)
@@ -43,7 +45,12 @@ public class GetWebDriverRemote {
                 /* Cómo habilitar la grabación de video */
                 put("enableVideo", false);
             }});
-            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
+            try {
+                driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+                throw new RuntimeException("Error al construir la URL del driver remoto.");
+            }
         }
         return driver; // Devolver la variable driver al final
     }
