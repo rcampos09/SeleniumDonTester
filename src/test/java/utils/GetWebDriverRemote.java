@@ -22,7 +22,7 @@ public class GetWebDriverRemote {
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.addArguments("--headless");
             // Inicializar el controlador de Chrome con las opciones configuradas
-            driver = new ChromeDriver();
+            driver = new ChromeDriver(chromeOptions);
         } else {
             ChromeOptions options = new ChromeOptions();
             // Por defecto se utiliza Chrome (120.0)
