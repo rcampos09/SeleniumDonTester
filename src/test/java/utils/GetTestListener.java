@@ -1,18 +1,23 @@
 package utils;
 
+import config.ConfigClass;
+import io.qameta.allure.Allure;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.ITestListener;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 
+import java.io.ByteArrayInputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class GetTestListener implements ITestListener {
+public class GetTestListener extends ConfigClass implements ITestListener {
+
     @Override
     public void onTestStart(ITestResult result) {
-        Date ahora = new Date();
-
         // Formatear la fecha y hora
+        Date ahora = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String formatoFechaHora = formatter.format(ahora);
 
@@ -24,9 +29,8 @@ public class GetTestListener implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        Date ahora = new Date();
-
         // Formatear la fecha y hora
+        Date ahora = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String formatoFechaHora = formatter.format(ahora);
 
@@ -38,9 +42,8 @@ public class GetTestListener implements ITestListener {
 
     @Override
     public void onTestFailure(ITestResult result) {
-        Date ahora = new Date();
-
         // Formatear la fecha y hora
+        Date ahora = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String formatoFechaHora = formatter.format(ahora);
 

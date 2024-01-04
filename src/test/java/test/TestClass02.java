@@ -9,19 +9,18 @@ import pages.HomePage;
 
 import static io.qameta.allure.SeverityLevel.CRITICAL;
 
-public class TestClass00 extends ConfigClass {
+public class TestClass02 extends ConfigClass {
 
-    @Test(dataProvider = "loginDataProvider", dataProviderClass = SetDataProvider.class, testName = "TestClass00", description = "Login User And Pass")
+    @Test(dataProvider = "loginDataProvider", dataProviderClass = SetDataProvider.class, testName = "TestClass02", description = "Login User And Pass")
     @Description("Esta prueba intenta iniciar sesión en el sitio web utilizando un nombre de usuario y una contraseña. Falla si ocurre algún error.")
     @Severity(CRITICAL)
     @Owner("@DonTester")
     @Link(name = "Website", url = "https://rcampos09.github.io/demo-Shop-t-shirt/")
-    @Story("DTS-000")
+    @Story("DTS-002")
     @Issue("DTI-000")
-    public void testExample00(String login, String password) {
+    public void testExample02(String login, String password) {
         HomePage homePage =  new HomePage(driver);
         homePage.ingresarCredenciales(login,password);
         homePage.hacerLogin();
-        Assert.assertTrue(homePage.validAlertaTextLogin(), "El mensaje No es el mismo");
     }
 }

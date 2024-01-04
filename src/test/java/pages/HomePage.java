@@ -1,10 +1,14 @@
 package pages;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import io.qameta.allure.Allure;
+import io.qameta.allure.Step;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import java.io.ByteArrayInputStream;
+
+import static org.testng.Assert.fail;
 
 public class HomePage {
 
@@ -28,18 +32,24 @@ public class HomePage {
     @FindBy(xpath = "//div[@id='usuario-info'][contains(text(), 'usuario')]")
     private WebElement usuarioInfoText;
 
-
-
     // Métodos para interactuar con la página
+    @Step("Este es el: {username} parametro, y este es la contraseña: {password}")
     public void ingresarCredenciales(String username, String password) {
         usernameInput.sendKeys(username);
         passwordInput.sendKeys(password);
     }
 
     public void hacerLogin() {
-        loginButton.click();
+        try {
+            loginButton.click();
+        } catch (Exception e) {
+            Allure.addAttachment("Boton loginButton: no clickable", new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
+            fail("boton no clickable: " + loginButton);
+            e.printStackTrace();
+        }
     }
 
+    @Step("Aceptar Alerta de Login")
     public void aceptarAlertaLogin() {
         try {
             Thread.sleep(2000);
@@ -52,6 +62,7 @@ public class HomePage {
         }
     }
 
+    @Step("Valida texto Alerta de Login")
     public boolean validAlertaTextLogin() {
         try {
             Thread.sleep(2000);
@@ -61,6 +72,7 @@ public class HomePage {
             if (alertText.equals("Inicio de sesión exitoso")) {
                 return true;
             } else {
+                fail("Texto no es: Inicio de sesión exitozo");
                 return false;
             }
         } catch (Exception e) {
@@ -70,6 +82,13 @@ public class HomePage {
     }
 
     public boolean usuarioInfoText() {
-        return usuarioInfoText.isDisplayed();
+        try {
+            return usuarioInfoText.isDisplayed();
+        } catch (Exception e) {
+            Allure.addAttachment("Elemento no presente", new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
+            fail("Elemento no presente ");
+            e.printStackTrace();
+            return false;
+        }
     }
 }
