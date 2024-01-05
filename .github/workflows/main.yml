@@ -42,6 +42,8 @@ jobs:
         run: |
           mvn clean test -Denv=urlStaging -Dremote=false
           allure generate target/allure-results --clean
+          echo "Variables de Entorno:"
+          env
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
