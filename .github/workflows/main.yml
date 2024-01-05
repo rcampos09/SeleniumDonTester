@@ -51,6 +51,6 @@ jobs:
           github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: ./allure-report
 
-          # Añade este comando para copiar el historial al directorio de publicación
+          # Añade este comando para copiar el historial al directorio de publicación cada vez que se ejecuta la suite
           post_script: |
             cp -R allure-report/history allure-report/allure-results/history
