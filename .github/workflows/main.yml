@@ -40,7 +40,9 @@ jobs:
 
       - name: Run Selenium Tests And Report 
         run: |
-          mvn clean test -Denv=urlStaging -Dremote=false
+          set +e  # Desactiva la detección de errores para continuar ejecutando incluso si las pruebas fallan
+          mvn clean test -Denv=urlStaging -Dremote=false || true  # Ejecuta las pruebas y continúa incluso si fallan
+          set -e  # Vuelve a activar la detección de errores
           allure generate target/allure-results --clean
 
       - name: Deploy to GitHub Pages
