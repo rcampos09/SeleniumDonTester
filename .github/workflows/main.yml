@@ -43,9 +43,17 @@ jobs:
           mvn clean test -Denv=urlStaging -Dremote=false
           allure generate target/allure-results --clean
 
-      - name: Commit and Push Allure Report
+      - name: Set Git Identity
+        run: |
+          git config user.email "rcampos.tapia@gmail.com.com"
+          git config user.name "rcampos09"
+
+      - name: Run git add allure-report
         run: |
           git add allure-report
+
+      - name: Commit and Push Allure Report
+        run: |
           git commit -m "Add Allure Report"
           git push origin main
 
