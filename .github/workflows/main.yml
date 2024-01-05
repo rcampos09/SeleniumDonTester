@@ -38,8 +38,7 @@ jobs:
           sudo ln -s /opt/allure-2.17.3/bin/allure /usr/local/bin/allure
           allure --version
 
-      - name: Run Selenium Tests
+      - name: Run Selenium Tests And Report 
         run: |
           mvn clean test -Denv=urlStaging -Dremote=false
-          cd target
-          ls -la
+          allure generate target/allure-results --clean
