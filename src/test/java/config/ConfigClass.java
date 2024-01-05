@@ -70,10 +70,11 @@ public class ConfigClass {
         // Obtener información del sistema después de que se hayan ejecutado todos los test
         String osEnv = System.getProperty("os.name");
         String userEnv = System.getProperty("user.name");
-        String urlEnv = GetUrlsEnvironmet.getNameEnv();
-        String nameEnv = GetUrlsEnvironmet.getEnvironmentURL();
+        String nameEnv = GetUrlsEnvironmet.getNameEnv();
+        String urlEnv = GetUrlsEnvironmet.getEnvironmentURL();
 
         // Llamar al método saveEnvironmentInfo de la clase GetEnvironment
-        GetEnvironment.saveEnvironmentInfo(osEnv, userEnv, urlEnv);
+        GetEnvironment.saveEnvironmentInfo(osEnv, userEnv, nameEnv, urlEnv);
+        GetEnvironment.saveExecutorInfo();
     }
 }
