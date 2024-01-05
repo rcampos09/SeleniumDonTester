@@ -1,12 +1,12 @@
 {
-  "uid" : "ebf177205470efaa",
+  "uid" : "52170ea9fdf127e2",
   "name" : "Login User And Pass",
-  "fullName" : "test.TestClass02.testExample02",
-  "historyId" : "5d4702c5775bc9e616c2b17d614b3617",
+  "fullName" : "test.TestClass00.testExample00",
+  "historyId" : "89820e171c38d9a45bcf7cd04f961577",
   "time" : {
-    "start" : 1704428047054,
-    "stop" : 1704428047207,
-    "duration" : 153
+    "start" : 1704433496136,
+    "stop" : 1704433498490,
+    "duration" : 2354
   },
   "description" : "Esta prueba intenta iniciar sesión en el sitio web utilizando un nombre de usuario y una contraseña. Falla si ocurre algún error.",
   "descriptionHtml" : "<p>Esta prueba intenta iniciar sesión en el sitio web utilizando un nombre de usuario y una contraseña. Falla si ocurre algún error.</p>\n",
@@ -20,9 +20,9 @@
   "beforeStages" : [ {
     "name" : "beforeSuite",
     "time" : {
-      "start" : 1704428037194,
-      "stop" : 1704428037201,
-      "duration" : 7
+      "start" : 1704433494293,
+      "stop" : 1704433494301,
+      "duration" : 8
     },
     "description" : "",
     "status" : "passed",
@@ -36,9 +36,9 @@
   }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1704428046643,
-      "stop" : 1704428047050,
-      "duration" : 407
+      "start" : 1704433494337,
+      "stop" : 1704433496064,
+      "duration" : 1727
     },
     "description" : "",
     "status" : "passed",
@@ -56,9 +56,9 @@
     "steps" : [ {
       "name" : "Este es el: usuario parametro, y este es la contraseña: contrasena",
       "time" : {
-        "start" : 1704428047055,
-        "stop" : 1704428047160,
-        "duration" : 105
+        "start" : 1704433496297,
+        "stop" : 1704433496421,
+        "duration" : 124
       },
       "status" : "passed",
       "steps" : [ ],
@@ -74,10 +74,25 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
+    }, {
+      "name" : "Valida texto Alerta de Login",
+      "time" : {
+        "start" : 1704433496472,
+        "stop" : 1704433498485,
+        "duration" : 2013
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
+    "stepsCount" : 2,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -85,9 +100,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1704428047208,
-      "stop" : 1704428047277,
-      "duration" : 69
+      "start" : 1704433498580,
+      "stop" : 1704433498659,
+      "duration" : 79
     },
     "description" : "",
     "status" : "passed",
@@ -101,8 +116,8 @@
   }, {
     "name" : "afterSuite",
     "time" : {
-      "start" : 1704428047307,
-      "stop" : 1704428047311,
+      "start" : 1704433502507,
+      "stop" : 1704433502511,
       "duration" : 4
     },
     "description" : "",
@@ -117,13 +132,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "test.TestClass02"
+    "value" : "test.TestClass00"
   }, {
     "name" : "testClass",
-    "value" : "test.TestClass02"
+    "value" : "test.TestClass00"
   }, {
     "name" : "testMethod",
-    "value" : "testExample02"
+    "value" : "testExample00"
   }, {
     "name" : "parentSuite",
     "value" : "MiSuiteDePruebas"
@@ -132,13 +147,13 @@
     "value" : "Test Suite (Demo-Shop-t-shirt)"
   }, {
     "name" : "subSuite",
-    "value" : "test.TestClass02"
+    "value" : "test.TestClass00"
   }, {
     "name" : "host",
-    "value" : "fv-az1456-243"
+    "value" : "fv-az1148-579"
   }, {
     "name" : "thread",
-    "value" : "3035@fv-az1456-243.main(1)"
+    "value" : "3024@fv-az1148-579.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -150,7 +165,7 @@
     "value" : "@DonTester"
   }, {
     "name" : "story",
-    "value" : "DTS-002"
+    "value" : "DTS-000"
   }, {
     "name" : "severity",
     "value" : "critical"
@@ -180,9 +195,13 @@
     "severity" : "critical",
     "owner" : "@DonTester",
     "retries" : [ ],
-    "categories" : [ ],
+    "categories" : [ {
+      "name" : "Passed tests",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
     "tags" : [ ]
   },
-  "source" : "ebf177205470efaa.json",
+  "source" : "52170ea9fdf127e2.json",
   "parameterValues" : [ "usuario", "contrasena" ]
 }

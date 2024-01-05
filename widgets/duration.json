@@ -1,30 +1,30 @@
 [ {
-  "uid" : "6141d3293b436a61",
+  "uid" : "52170ea9fdf127e2",
   "name" : "Login User And Pass",
   "time" : {
-    "start" : 1704428044368,
-    "stop" : 1704428046570,
-    "duration" : 2202
+    "start" : 1704433496136,
+    "stop" : 1704433498490,
+    "duration" : 2354
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "ebf177205470efaa",
+  "uid" : "a2daadcdeefb6cfe",
   "name" : "Login User And Pass",
   "time" : {
-    "start" : 1704428047054,
-    "stop" : 1704428047207,
-    "duration" : 153
+    "start" : 1704433499506,
+    "stop" : 1704433501770,
+    "duration" : 2264
   },
-  "status" : "passed",
+  "status" : "failed",
   "severity" : "critical"
 }, {
-  "uid" : "163d9c8fd78ca865",
+  "uid" : "2598e3ed57cfd822",
   "name" : "Login User And Pass",
   "time" : {
-    "start" : 1704428041323,
-    "stop" : 1704428043725,
-    "duration" : 2402
+    "start" : 1704433502254,
+    "stop" : 1704433502408,
+    "duration" : 154
   },
   "status" : "passed",
   "severity" : "critical"

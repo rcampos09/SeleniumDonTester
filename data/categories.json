@@ -1,5 +1,96 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Passed tests",
+    "children" : [ {
+      "children" : [ {
+        "name" : "Login User And Pass",
+        "uid" : "52170ea9fdf127e2",
+        "parentUid" : "a15971e48ddfd2dfbfc5062500b234d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704433496136,
+          "stop" : 1704433498490,
+          "duration" : 2354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "usuario", "contrasena" ]
+      }, {
+        "name" : "Login User And Pass",
+        "uid" : "2598e3ed57cfd822",
+        "parentUid" : "a15971e48ddfd2dfbfc5062500b234d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704433502254,
+          "stop" : 1704433502408,
+          "duration" : 154
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "usuario", "contrasena" ]
+      } ],
+      "uid" : "a15971e48ddfd2dfbfc5062500b234d9"
+    } ],
+    "uid" : "dd8992aead2124d0571b6a4556de1945"
+  }, {
+    "name" : "Assertion Errors",
+    "children" : [ {
+      "name" : "Elemento no presente ",
+      "children" : [ {
+        "name" : "Login User And Pass",
+        "uid" : "a2daadcdeefb6cfe",
+        "parentUid" : "4eac0b06fa612726a87171a032a78514",
+        "status" : "failed",
+        "time" : {
+          "start" : 1704433499506,
+          "stop" : 1704433501770,
+          "duration" : 2264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "usuario", "contrasena" ]
+      } ],
+      "uid" : "4eac0b06fa612726a87171a032a78514"
+    } ],
+    "uid" : "5c891c96f9d94359d82c78e3b99b843a"
+  }, {
+    "name" : "Failed tests",
+    "children" : [ {
+      "name" : "Elemento no presente ",
+      "children" : [ {
+        "name" : "Login User And Pass",
+        "uid" : "a2daadcdeefb6cfe",
+        "parentUid" : "85018cd910dc74e2b8e6ecf817374cec",
+        "status" : "failed",
+        "time" : {
+          "start" : 1704433499506,
+          "stop" : 1704433501770,
+          "duration" : 2264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "usuario", "contrasena" ]
+      } ],
+      "uid" : "85018cd910dc74e2b8e6ecf817374cec"
+    } ],
+    "uid" : "40f16b7589a18610ab68a6632973ea15"
+  } ],
   "name" : "categories"
 }

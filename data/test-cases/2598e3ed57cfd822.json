@@ -1,12 +1,12 @@
 {
-  "uid" : "6141d3293b436a61",
+  "uid" : "2598e3ed57cfd822",
   "name" : "Login User And Pass",
-  "fullName" : "test.TestClass01.testExample01",
-  "historyId" : "105f03f7e3db8a7a55e8916cf8dc5784",
+  "fullName" : "test.TestClass02.testExample02",
+  "historyId" : "5d4702c5775bc9e616c2b17d614b3617",
   "time" : {
-    "start" : 1704428044368,
-    "stop" : 1704428046570,
-    "duration" : 2202
+    "start" : 1704433502254,
+    "stop" : 1704433502408,
+    "duration" : 154
   },
   "description" : "Esta prueba intenta iniciar sesión en el sitio web utilizando un nombre de usuario y una contraseña. Falla si ocurre algún error.",
   "descriptionHtml" : "<p>Esta prueba intenta iniciar sesión en el sitio web utilizando un nombre de usuario y una contraseña. Falla si ocurre algún error.</p>\n",
@@ -20,9 +20,9 @@
   "beforeStages" : [ {
     "name" : "beforeSuite",
     "time" : {
-      "start" : 1704428037194,
-      "stop" : 1704428037201,
-      "duration" : 7
+      "start" : 1704433494293,
+      "stop" : 1704433494301,
+      "duration" : 8
     },
     "description" : "",
     "status" : "passed",
@@ -36,9 +36,9 @@
   }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1704428043906,
-      "stop" : 1704428044364,
-      "duration" : 458
+      "start" : 1704433501849,
+      "stop" : 1704433502249,
+      "duration" : 400
     },
     "description" : "",
     "status" : "passed",
@@ -56,8 +56,8 @@
     "steps" : [ {
       "name" : "Este es el: usuario parametro, y este es la contraseña: contrasena",
       "time" : {
-        "start" : 1704428044369,
-        "stop" : 1704428044475,
+        "start" : 1704433502256,
+        "stop" : 1704433502362,
         "duration" : 106
       },
       "status" : "passed",
@@ -74,25 +74,10 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
-    }, {
-      "name" : "Aceptar Alerta de Login",
-      "time" : {
-        "start" : 1704428044525,
-        "stop" : 1704428046536,
-        "duration" : 2011
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 2,
+    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -100,9 +85,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1704428046573,
-      "stop" : 1704428046642,
-      "duration" : 69
+      "start" : 1704433502410,
+      "stop" : 1704433502478,
+      "duration" : 68
     },
     "description" : "",
     "status" : "passed",
@@ -116,8 +101,8 @@
   }, {
     "name" : "afterSuite",
     "time" : {
-      "start" : 1704428047307,
-      "stop" : 1704428047311,
+      "start" : 1704433502507,
+      "stop" : 1704433502511,
       "duration" : 4
     },
     "description" : "",
@@ -132,13 +117,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "test.TestClass01"
+    "value" : "test.TestClass02"
   }, {
     "name" : "testClass",
-    "value" : "test.TestClass01"
+    "value" : "test.TestClass02"
   }, {
     "name" : "testMethod",
-    "value" : "testExample01"
+    "value" : "testExample02"
   }, {
     "name" : "parentSuite",
     "value" : "MiSuiteDePruebas"
@@ -147,13 +132,13 @@
     "value" : "Test Suite (Demo-Shop-t-shirt)"
   }, {
     "name" : "subSuite",
-    "value" : "test.TestClass01"
+    "value" : "test.TestClass02"
   }, {
     "name" : "host",
-    "value" : "fv-az1456-243"
+    "value" : "fv-az1148-579"
   }, {
     "name" : "thread",
-    "value" : "3035@fv-az1456-243.main(1)"
+    "value" : "3024@fv-az1148-579.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -165,7 +150,7 @@
     "value" : "@DonTester"
   }, {
     "name" : "story",
-    "value" : "DTS-001"
+    "value" : "DTS-000"
   }, {
     "name" : "severity",
     "value" : "critical"
@@ -181,8 +166,8 @@
     "value" : "contrasena"
   } ],
   "links" : [ {
-    "name" : "DTI-000",
-    "url" : "https://atlassian.jira.com/issue/DTI-000",
+    "name" : "DTI-002",
+    "url" : "https://atlassian.jira.com/issue/DTI-002",
     "type" : "issue"
   }, {
     "name" : "Website",
@@ -195,9 +180,13 @@
     "severity" : "critical",
     "owner" : "@DonTester",
     "retries" : [ ],
-    "categories" : [ ],
+    "categories" : [ {
+      "name" : "Passed tests",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
     "tags" : [ ]
   },
-  "source" : "6141d3293b436a61.json",
+  "source" : "2598e3ed57cfd822.json",
   "parameterValues" : [ "usuario", "contrasena" ]
 }

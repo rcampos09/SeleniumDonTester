@@ -1,4 +1,7 @@
 [ {
+  "buildOrder" : 7,
+  "reportUrl" : "http://example.org/build#7/AllureReport",
+  "reportName" : "Demo allure report",
   "data" : {
     "run" : 3,
     "retry" : 0

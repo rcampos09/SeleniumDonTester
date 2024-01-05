@@ -1,5 +1,8 @@
 [ {
+  "buildOrder" : 7,
+  "reportUrl" : "http://example.org/build#7/AllureReport",
+  "reportName" : "Demo allure report",
   "data" : {
-    "duration" : 5884
+    "duration" : 6272
   }
 } ]

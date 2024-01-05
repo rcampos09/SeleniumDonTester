@@ -8,13 +8,13 @@
         "name" : "test.TestClass00",
         "children" : [ {
           "name" : "Login User And Pass",
-          "uid" : "163d9c8fd78ca865",
+          "uid" : "52170ea9fdf127e2",
           "parentUid" : "fadfc5c4430cd0a5cf09366bfd4ecf33",
           "status" : "passed",
           "time" : {
-            "start" : 1704428041323,
-            "stop" : 1704428043725,
-            "duration" : 2402
+            "start" : 1704433496136,
+            "stop" : 1704433498490,
+            "duration" : 2354
           },
           "flaky" : false,
           "newFailed" : false,
@@ -29,13 +29,13 @@
         "name" : "test.TestClass01",
         "children" : [ {
           "name" : "Login User And Pass",
-          "uid" : "6141d3293b436a61",
+          "uid" : "a2daadcdeefb6cfe",
           "parentUid" : "84550c55b8b3c8e2a2e0854ff62f5acf",
-          "status" : "passed",
+          "status" : "failed",
           "time" : {
-            "start" : 1704428044368,
-            "stop" : 1704428046570,
-            "duration" : 2202
+            "start" : 1704433499506,
+            "stop" : 1704433501770,
+            "duration" : 2264
           },
           "flaky" : false,
           "newFailed" : false,
@@ -50,13 +50,13 @@
         "name" : "test.TestClass02",
         "children" : [ {
           "name" : "Login User And Pass",
-          "uid" : "ebf177205470efaa",
+          "uid" : "2598e3ed57cfd822",
           "parentUid" : "d7bff460f992b069a2cf396da6cd24b4",
           "status" : "passed",
           "time" : {
-            "start" : 1704428047054,
-            "stop" : 1704428047207,
-            "duration" : 153
+            "start" : 1704433502254,
+            "stop" : 1704433502408,
+            "duration" : 154
           },
           "flaky" : false,
           "newFailed" : false,

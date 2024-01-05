@@ -4,13 +4,47 @@
     "name" : "DTS-000",
     "children" : [ {
       "name" : "Login User And Pass",
-      "uid" : "163d9c8fd78ca865",
+      "uid" : "52170ea9fdf127e2",
       "parentUid" : "617c4982d50d6c6e44a504e46fbad726",
       "status" : "passed",
       "time" : {
-        "start" : 1704428041323,
-        "stop" : 1704428043725,
-        "duration" : 2402
+        "start" : 1704433496136,
+        "stop" : 1704433498490,
+        "duration" : 2354
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "usuario", "contrasena" ]
+    }, {
+      "name" : "Login User And Pass",
+      "uid" : "a2daadcdeefb6cfe",
+      "parentUid" : "617c4982d50d6c6e44a504e46fbad726",
+      "status" : "failed",
+      "time" : {
+        "start" : 1704433499506,
+        "stop" : 1704433501770,
+        "duration" : 2264
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "usuario", "contrasena" ]
+    }, {
+      "name" : "Login User And Pass",
+      "uid" : "2598e3ed57cfd822",
+      "parentUid" : "617c4982d50d6c6e44a504e46fbad726",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704433502254,
+        "stop" : 1704433502408,
+        "duration" : 154
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,48 +55,6 @@
       "parameters" : [ "usuario", "contrasena" ]
     } ],
     "uid" : "617c4982d50d6c6e44a504e46fbad726"
-  }, {
-    "name" : "DTS-001",
-    "children" : [ {
-      "name" : "Login User And Pass",
-      "uid" : "6141d3293b436a61",
-      "parentUid" : "b393f095dbbd59632fb4ba84cf1a2d87",
-      "status" : "passed",
-      "time" : {
-        "start" : 1704428044368,
-        "stop" : 1704428046570,
-        "duration" : 2202
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "usuario", "contrasena" ]
-    } ],
-    "uid" : "b393f095dbbd59632fb4ba84cf1a2d87"
-  }, {
-    "name" : "DTS-002",
-    "children" : [ {
-      "name" : "Login User And Pass",
-      "uid" : "ebf177205470efaa",
-      "parentUid" : "26b151488c653ab391811a6c817267e9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1704428047054,
-        "stop" : 1704428047207,
-        "duration" : 153
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "usuario", "contrasena" ]
-    } ],
-    "uid" : "26b151488c653ab391811a6c817267e9"
   } ],
   "name" : "behaviors"
 }
