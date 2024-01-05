@@ -35,3 +35,11 @@ jobs:
         run: |
           mvn clean test -Denv=urlStaging -Dremote=false
           pwd
+
+      - name: Install Allure Report
+        run: |
+          wget https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.24.0/allure-commandline-2.24.0.deb
+          sudo dpkg -i allure-commandline-2.24.0.deb
+          allure --version
+          pwd
+          allure generate target/allure-results
