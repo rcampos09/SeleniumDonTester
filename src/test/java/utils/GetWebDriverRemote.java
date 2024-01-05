@@ -17,9 +17,11 @@ public class GetWebDriverRemote {
         String remoteDriver = System.getProperty("remote", "true");
 
         if (remoteDriver.equals("false")) {// Por defecto se utiliza Chrome (lastest)
-            System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/linux/chromedriver");
+            // System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/mac/chromedriver");
             // Configurar las opciones de Chrome para ejecutar en modo sin cabeza
             ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.addArguments("--no-sandbox");
+            chromeOptions.addArguments("--disable-dev-shm-usage");
             chromeOptions.addArguments("--headless");
             // Inicializar el controlador de Chrome con las opciones configuradas
             driver = new ChromeDriver(chromeOptions);
