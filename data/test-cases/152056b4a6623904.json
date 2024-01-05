@@ -1,0 +1,203 @@
+{
+  "uid" : "152056b4a6623904",
+  "name" : "Login User And Pass",
+  "fullName" : "test.TestClass00.testExample00",
+  "historyId" : "89820e171c38d9a45bcf7cd04f961577",
+  "time" : {
+    "start" : 1704420647507,
+    "stop" : 1704420649913,
+    "duration" : 2406
+  },
+  "description" : "Esta prueba intenta iniciar sesión en el sitio web utilizando un nombre de usuario y una contraseña. Falla si ocurre algún error.",
+  "descriptionHtml" : "<p>Esta prueba intenta iniciar sesión en el sitio web utilizando un nombre de usuario y una contraseña. Falla si ocurre algún error.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1704420644130,
+      "stop" : 1704420644136,
+      "duration" : 6
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1704420644168,
+      "stop" : 1704420647445,
+      "duration" : 3277
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Esta prueba intenta iniciar sesión en el sitio web utilizando un nombre de usuario y una contraseña. Falla si ocurre algún error.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Este es el: usuario parametro, y este es la contraseña: contrasena",
+      "time" : {
+        "start" : 1704420647665,
+        "stop" : 1704420647826,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "usuario"
+      }, {
+        "name" : "password",
+        "value" : "contrasena"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Valida texto Alerta de Login",
+      "time" : {
+        "start" : 1704420647892,
+        "stop" : 1704420649906,
+        "duration" : 2014
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1704420650003,
+      "stop" : 1704420650082,
+      "duration" : 79
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1704420653503,
+      "stop" : 1704420653504,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.TestClass00"
+  }, {
+    "name" : "testClass",
+    "value" : "test.TestClass00"
+  }, {
+    "name" : "testMethod",
+    "value" : "testExample00"
+  }, {
+    "name" : "parentSuite",
+    "value" : "MiSuiteDePruebas"
+  }, {
+    "name" : "suite",
+    "value" : "Test Suite (Demo-Shop-t-shirt)"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.TestClass00"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1567-133"
+  }, {
+    "name" : "thread",
+    "value" : "2872@fv-az1567-133.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "owner",
+    "value" : "@DonTester"
+  }, {
+    "name" : "story",
+    "value" : "DTS-000"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "usuario"
+  }, {
+    "name" : "arg1",
+    "value" : "contrasena"
+  } ],
+  "links" : [ {
+    "name" : "DTI-000",
+    "url" : "https://atlassian.jira.com/issue/DTI-000",
+    "type" : "issue"
+  }, {
+    "name" : "Website",
+    "url" : "https://rcampos09.github.io/demo-Shop-t-shirt/",
+    "type" : "custom"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "owner" : "@DonTester",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "152056b4a6623904.json",
+  "parameterValues" : [ "usuario", "contrasena" ]
+}

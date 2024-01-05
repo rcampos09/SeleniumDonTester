@@ -1,0 +1,10 @@
+[ {
+  "values" : [ "Linux" ],
+  "name" : "sistema.operativo"
+}, {
+  "values" : [ "runner" ],
+  "name" : "usuario"
+}, {
+  "values" : [ "STAGING" ],
+  "name" : "url"
+} ]

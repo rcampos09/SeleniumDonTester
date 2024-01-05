@@ -1,0 +1,31 @@
+[ {
+  "uid" : "89b510479aa8d194",
+  "name" : "Login User And Pass",
+  "time" : {
+    "start" : 1704420650579,
+    "stop" : 1704420652783,
+    "duration" : 2204
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "152056b4a6623904",
+  "name" : "Login User And Pass",
+  "time" : {
+    "start" : 1704420647507,
+    "stop" : 1704420649913,
+    "duration" : 2406
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e9024abc7a3e4ce7",
+  "name" : "Login User And Pass",
+  "time" : {
+    "start" : 1704420653263,
+    "stop" : 1704420653407,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

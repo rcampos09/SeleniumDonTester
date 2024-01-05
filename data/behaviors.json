@@ -1,0 +1,68 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "DTS-000",
+    "children" : [ {
+      "name" : "Login User And Pass",
+      "uid" : "152056b4a6623904",
+      "parentUid" : "617c4982d50d6c6e44a504e46fbad726",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704420647507,
+        "stop" : 1704420649913,
+        "duration" : 2406
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "usuario", "contrasena" ]
+    } ],
+    "uid" : "617c4982d50d6c6e44a504e46fbad726"
+  }, {
+    "name" : "DTS-001",
+    "children" : [ {
+      "name" : "Login User And Pass",
+      "uid" : "89b510479aa8d194",
+      "parentUid" : "b393f095dbbd59632fb4ba84cf1a2d87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704420650579,
+        "stop" : 1704420652783,
+        "duration" : 2204
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "usuario", "contrasena" ]
+    } ],
+    "uid" : "b393f095dbbd59632fb4ba84cf1a2d87"
+  }, {
+    "name" : "DTS-002",
+    "children" : [ {
+      "name" : "Login User And Pass",
+      "uid" : "e9024abc7a3e4ce7",
+      "parentUid" : "26b151488c653ab391811a6c817267e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1704420653263,
+        "stop" : 1704420653407,
+        "duration" : 144
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "usuario", "contrasena" ]
+    } ],
+    "uid" : "26b151488c653ab391811a6c817267e9"
+  } ],
+  "name" : "behaviors"
+}

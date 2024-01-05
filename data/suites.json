@@ -1,0 +1,76 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "MiSuiteDePruebas",
+    "children" : [ {
+      "name" : "Test Suite (Demo-Shop-t-shirt)",
+      "children" : [ {
+        "name" : "test.TestClass00",
+        "children" : [ {
+          "name" : "Login User And Pass",
+          "uid" : "152056b4a6623904",
+          "parentUid" : "fadfc5c4430cd0a5cf09366bfd4ecf33",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704420647507,
+            "stop" : 1704420649913,
+            "duration" : 2406
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "usuario", "contrasena" ]
+        } ],
+        "uid" : "fadfc5c4430cd0a5cf09366bfd4ecf33"
+      }, {
+        "name" : "test.TestClass01",
+        "children" : [ {
+          "name" : "Login User And Pass",
+          "uid" : "89b510479aa8d194",
+          "parentUid" : "84550c55b8b3c8e2a2e0854ff62f5acf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704420650579,
+            "stop" : 1704420652783,
+            "duration" : 2204
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "usuario", "contrasena" ]
+        } ],
+        "uid" : "84550c55b8b3c8e2a2e0854ff62f5acf"
+      }, {
+        "name" : "test.TestClass02",
+        "children" : [ {
+          "name" : "Login User And Pass",
+          "uid" : "e9024abc7a3e4ce7",
+          "parentUid" : "d7bff460f992b069a2cf396da6cd24b4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1704420653263,
+            "stop" : 1704420653407,
+            "duration" : 144
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "usuario", "contrasena" ]
+        } ],
+        "uid" : "d7bff460f992b069a2cf396da6cd24b4"
+      } ],
+      "uid" : "875ec41ef32d123ec31045daf922b978"
+    } ],
+    "uid" : "63f1f4185cd0901cc5d132af8b9d63de"
+  } ],
+  "name" : "suites"
+}
