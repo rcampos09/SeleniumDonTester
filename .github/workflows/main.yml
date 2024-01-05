@@ -43,21 +43,15 @@ jobs:
           mvn clean test -Denv=urlStaging -Dremote=false
           allure generate target/allure-results --clean
 
-      - name: Set Git Identity
+      - name: Commit and Push Allure Report
         run: |
           git config user.email "rcampos.tapia@gmail.com.com"
           git config user.name "rcampos09"
-
-      - name: Run git add allure-report
-        run: |
           git add allure-report
-
-      - name: Commit and Push Allure Report
-        run: |
           git commit -m "Add Allure Report"
           git push origin main
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
