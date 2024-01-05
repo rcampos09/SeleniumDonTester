@@ -35,7 +35,7 @@ public class GetEnvironment {
         JSONObject jsonObject = new JSONObject();
         HashMap<String, String> mapa = new HashMap<>();  // Parametriza tu HashMap
 
-        mapa.put("name", "Tithub");
+        mapa.put("name", "github");
         mapa.put("type", "github");
         //mapa.put("buildName", "AutoTests / test # 5.1.1");
         //mapa.put("buildOrder", "5.1.1");
@@ -49,7 +49,7 @@ public class GetEnvironment {
 
         try (FileWriter fileWriter = new FileWriter(filePath)) {
             fileWriter.write(jsonObject.toJSONString());
-            System.out.println("Archivo JSON creado con éxito en: " + filePath);
+            //System.out.println("Archivo JSON creado con éxito en: " + filePath);
         } catch (IOException e) {
             e.printStackTrace();
         }
