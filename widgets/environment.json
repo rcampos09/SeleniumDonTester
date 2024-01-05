@@ -1,10 +1,13 @@
 [ {
   "values" : [ "Linux" ],
-  "name" : "sistema.operativo"
+  "name" : "Sistema Operativo:"
+}, {
+  "values" : [ "http://rcampos09.github.io/demo-Shop-t-shirt/" ],
+  "name" : "URL:"
 }, {
   "values" : [ "runner" ],
-  "name" : "usuario"
+  "name" : "Usuario:"
 }, {
   "values" : [ "STAGING" ],
-  "name" : "url"
+  "name" : "Ambiente:"
 } ]

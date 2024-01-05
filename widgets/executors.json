@@ -1,1 +1,4 @@
-[ ]
+[ {
+  "name" : "Tithub",
+  "type" : "github"
+} ]
