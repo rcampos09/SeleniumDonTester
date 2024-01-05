@@ -6,13 +6,13 @@
       "name" : "TestClass00",
       "children" : [ {
         "name" : "testExample00",
-        "uid" : "52170ea9fdf127e2",
+        "uid" : "b4e542fd0ee53a5b",
         "parentUid" : "cca55c3af81c4696bdd8d11457237b50",
         "status" : "passed",
         "time" : {
-          "start" : 1704433496136,
-          "stop" : 1704433498490,
-          "duration" : 2354
+          "start" : 1704485193841,
+          "stop" : 1704485196237,
+          "duration" : 2396
         },
         "flaky" : false,
         "newFailed" : false,
@@ -27,13 +27,13 @@
       "name" : "TestClass01",
       "children" : [ {
         "name" : "testExample01",
-        "uid" : "a2daadcdeefb6cfe",
+        "uid" : "faf857002fa648ad",
         "parentUid" : "ffc39d7ea768d12cf7acbfe154761b43",
         "status" : "failed",
         "time" : {
-          "start" : 1704433499506,
-          "stop" : 1704433501770,
-          "duration" : 2264
+          "start" : 1704485196865,
+          "stop" : 1704485199132,
+          "duration" : 2267
         },
         "flaky" : false,
         "newFailed" : false,
@@ -48,13 +48,13 @@
       "name" : "TestClass02",
       "children" : [ {
         "name" : "testExample02",
-        "uid" : "2598e3ed57cfd822",
+        "uid" : "21ac3d6e5a83ac72",
         "parentUid" : "087cf10c0c63dad1411269e059c2ab47",
         "status" : "passed",
         "time" : {
-          "start" : 1704433502254,
-          "stop" : 1704433502408,
-          "duration" : 154
+          "start" : 1704485199631,
+          "stop" : 1704485199784,
+          "duration" : 153
         },
         "flaky" : false,
         "newFailed" : false,
