@@ -43,18 +43,20 @@ jobs:
           mvn clean test -Denv=urlStaging -Dremote=false
           allure generate target/allure-results --clean
 
-      - name: Commit and Push Allure Report
-        run: |
-          git config user.email "rcampos.tapia@gmail.com.com"
-          git config user.name "rcampos09"
-          git add allure-report
-          git commit -m "Add Allure Report"
-          git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Test marketplace action
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        id: allure-report
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./allure-report
+          allure_results: allure-results/Reports/*
+          gh_pages: gh-pages
+          allure_report: allure-report
+          allure_history: allure-history
+
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history
