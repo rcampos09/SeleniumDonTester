@@ -4,13 +4,13 @@
     "name" : "DTS-000",
     "children" : [ {
       "name" : "Login User And Pass",
-      "uid" : "152056b4a6623904",
+      "uid" : "287c9849f5102cac",
       "parentUid" : "617c4982d50d6c6e44a504e46fbad726",
       "status" : "passed",
       "time" : {
-        "start" : 1704420647507,
-        "stop" : 1704420649913,
-        "duration" : 2406
+        "start" : 1704424832043,
+        "stop" : 1704424834423,
+        "duration" : 2380
       },
       "flaky" : false,
       "newFailed" : false,
@@ -25,13 +25,13 @@
     "name" : "DTS-001",
     "children" : [ {
       "name" : "Login User And Pass",
-      "uid" : "89b510479aa8d194",
+      "uid" : "c621ab52994f16c4",
       "parentUid" : "b393f095dbbd59632fb4ba84cf1a2d87",
       "status" : "passed",
       "time" : {
-        "start" : 1704420650579,
-        "stop" : 1704420652783,
-        "duration" : 2204
+        "start" : 1704424834986,
+        "stop" : 1704424837181,
+        "duration" : 2195
       },
       "flaky" : false,
       "newFailed" : false,
@@ -46,13 +46,13 @@
     "name" : "DTS-002",
     "children" : [ {
       "name" : "Login User And Pass",
-      "uid" : "e9024abc7a3e4ce7",
+      "uid" : "d733e7dd8adb599f",
       "parentUid" : "26b151488c653ab391811a6c817267e9",
       "status" : "passed",
       "time" : {
-        "start" : 1704420653263,
-        "stop" : 1704420653407,
-        "duration" : 144
+        "start" : 1704424837629,
+        "stop" : 1704424837774,
+        "duration" : 145
       },
       "flaky" : false,
       "newFailed" : false,
