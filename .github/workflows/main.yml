@@ -53,5 +53,4 @@ jobs:
           publish_dir: ./allure-report
           # Añade este comando para copiar el historial al directorio de publicación cada vez que se ejecuta la suite
           post_script: |
-          # Copia el historial al directorio allure-results para futuras ejecuciones
             cp -R allure-report/history allure-report/allure-results/history
