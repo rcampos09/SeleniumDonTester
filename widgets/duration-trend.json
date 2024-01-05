@@ -3,6 +3,6 @@
   "reportUrl" : "http://example.org/build#7/AllureReport",
   "reportName" : "Demo allure report",
   "data" : {
-    "duration" : 5812
+    "duration" : 6764
   }
 } ]
