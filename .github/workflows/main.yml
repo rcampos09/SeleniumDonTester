@@ -41,6 +41,7 @@ jobs:
       - name: Run Selenium Tests And Report 
         run: |
           set +e  # Desactiva la detección de errores para continuar ejecutando incluso si las pruebas fallan
+          ls -la
           mvn clean test -Denv=urlStaging -Dremote=false || true  # Ejecuta las pruebas y continúa incluso si fallan
           set -e  # Vuelve a activar la detección de errores
           allure generate target/allure-results --clean
@@ -50,7 +51,7 @@ jobs:
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: ./allure-report
-
           # Añade este comando para copiar el historial al directorio de publicación cada vez que se ejecuta la suite
           post_script: |
+          # Copia el historial al directorio allure-results para futuras ejecuciones
             cp -R allure-report/history allure-report/allure-results/history
