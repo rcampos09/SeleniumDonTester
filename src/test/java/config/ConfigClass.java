@@ -12,6 +12,7 @@ import utils.GetTestListener;
 import utils.GetUrlsEnvironmet;
 import utils.GetWebDriverRemote;
 
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -76,5 +77,10 @@ public class ConfigClass {
         // Llamar al método saveEnvironmentInfo de la clase GetEnvironment
         GetEnvironment.saveEnvironmentInfo(osEnv, userEnv, nameEnv, urlEnv);
         GetEnvironment.saveExecutorInfo();
+        try {
+            GetEnvironment.copyCategoriesJsonToTarget();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

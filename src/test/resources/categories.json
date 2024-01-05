@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Ignored tests",
+    "messageRegex": ".*ignored.*",
+    "matchedStatuses": ["skipped"],
+    "flaky": true
+  },
+  {
+    "name": "Infrastructure problems",
+    "traceRegex": ".*RuntimeException.*",
+    "matchedStatuses": ["broken", "failed"]
+  },
+  {
+  "name": "Assertion Errors",
+  "traceRegex": ".*AssertionError.*",
+  "matchedStatuses": ["broken", "failed"]
+  },
+  {
+    "name": "Outdated tests",
+    "messageRegex": ".*FileNotFound.*",
+    "matchedStatuses": ["broken"]
+  },
+  {
+    "name": "Passed tests",
+    "matchedStatuses": ["passed"]
+  },
+  {
+    "name":"Failed tests",
+    "matchedStatuses":["failed"]
+  },
+  {
+    "name": "Internet Connection Issues",
+    "traceRegex": ".*net::ERR_INTERNET_DISCONNECTED.*",
+    "matchedStatuses": ["broken", "failed", "skipped"]
+  }
+]

@@ -16,8 +16,8 @@ public class TestClass01 extends ConfigClass {
     @Severity(CRITICAL)
     @Owner("@DonTester")
     @Link(name = "Website", url = "https://rcampos09.github.io/demo-Shop-t-shirt/")
-    @Story("DTS-001")
-    @Issue("DTI-000")
+    @Story("DTS-000")
+    @Issue("DTI-001")
     public void testExample01(String login, String password) {
         HomePage homePage =  new HomePage(driver);
         homePage.ingresarCredenciales(login,password);

@@ -2,6 +2,8 @@ package utils;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Properties;
@@ -37,8 +39,12 @@ public class GetEnvironment {
 
         mapa.put("name", "github");
         mapa.put("type", "github");
-        //mapa.put("buildName", "AutoTests / test # 5.1.1");
-        //mapa.put("buildOrder", "5.1.1");
+        mapa.put("url", "http://example.org");
+        mapa.put("buildOrder", "7");
+        mapa.put("buildName", "#7-regression-tests");
+        mapa.put("buildUrl", "http://example.org/build#7");
+        mapa.put("reportUrl", "http://example.org/build#7/AllureReport");
+        mapa.put("reportName", "Demo allure report");
 
         // Utilizar putAll para agregar todos los elementos del HashMap al JSONObject
         jsonObject.putAll(mapa);
@@ -53,5 +59,20 @@ public class GetEnvironment {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public static void copyCategoriesJsonToTarget() throws IOException {
+        // Rutas de origen y destino
+        Path sourcePath = Paths.get("src", "test", "resources", "categories.json");
+        Path targetPath = Paths.get("target/allure-results", "categories.json");
+
+        // Verifica si el directorio de destino existe, si no, créalo
+        Path targetDirectory = targetPath.getParent();
+        if (!Files.exists(targetDirectory)) {
+            Files.createDirectories(targetDirectory);
+        }
+        // Copia el archivo
+        Files.copy(sourcePath, targetPath);
+        //System.out.println("categories.json copiado exitosamente a la carpeta target.");
     }
 }

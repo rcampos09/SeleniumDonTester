@@ -29,7 +29,7 @@ public class HomePage {
     @FindBy(id = "click-login")
     private WebElement loginButton;
 
-    @FindBy(xpath = "//div[@id='usuario-info'][contains(text(), 'usuario')]")
+    @FindBy(xpath = "//div[@id='usuario-info'][contains(text(), 'juan')]")
     private WebElement usuarioInfoText;
 
     // Métodos para interactuar con la página
