@@ -38,6 +38,12 @@ jobs:
           sudo ln -s /opt/allure-2.17.3/bin/allure /usr/local/bin/allure
           allure --version
 
+      - name: Get history allure
+        run: |
+        # Clona el repositorio en la carpeta gh-pages
+          git clone --branch=gh-pages --single-branch --depth=1 https://github.com/rcampos09/SeleniumDonTester.git gh-pages
+          ls -la
+
       - name: Run Selenium Tests And Report 
         run: |
           set +e  # Desactiva la detección de errores para continuar ejecutando incluso si las pruebas fallan
@@ -53,4 +59,4 @@ jobs:
           publish_dir: ./allure-report
           # Añade este comando para copiar el historial al directorio de publicación cada vez que se ejecuta la suite
           post_script: |
-            cp -R allure-report/history allure-report/allure-results/history
+          # cp -R allure-report/history allure-report/allure-results/history
