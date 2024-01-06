@@ -40,7 +40,7 @@ jobs:
 
       - name: Get history allure
         run: |
-        # Clona el repositorio en la carpeta gh-pages
+          # Clona el repositorio en la carpeta gh-pages
           git clone --branch=gh-pages --single-branch --depth=1 https://github.com/rcampos09/SeleniumDonTester.git gh-pages
           ls -la
 
