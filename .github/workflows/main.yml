@@ -42,6 +42,7 @@ jobs:
         run: |
           # Clona el repositorio en la carpeta gh-pages
           git clone --branch=gh-pages --single-branch --depth=1 https://github.com/rcampos09/SeleniumDonTester.git gh-pages
+          cd gh-pages
           ls -la
 
       - name: Run Selenium Tests And Report 
@@ -50,8 +51,10 @@ jobs:
           ls -la
           mvn clean test -Denv=urlStaging -Dremote=false || true  # Ejecuta las pruebas y continúa incluso si fallan
           set -e  # Vuelve a activar la detección de errores
-          cp -R gh-pages/allure-report/history target/allure-results/history
+          ls -la
+          cp gh-pages/allure-report/history target/allure-results/history
           allure generate target/allure-results --clean
+          ls -la
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
