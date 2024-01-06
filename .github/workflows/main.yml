@@ -42,6 +42,7 @@ jobs:
         run: |
           # Clona el repositorio en la carpeta gh-pages
           git clone --branch=gh-pages --single-branch --depth=1 https://github.com/rcampos09/SeleniumDonTester.git gh-pages
+          chmod -R +r gh-pages/allure-report/history
           ls -la gh-pages/allure-report/history
           pwd
 
