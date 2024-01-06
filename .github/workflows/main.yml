@@ -51,7 +51,7 @@ jobs:
           ls -la
           mvn clean test -Denv=urlStaging -Dremote=false || true  # Ejecuta las pruebas y continúa incluso si fallan
           set -e  # Vuelve a activar la detección de errores
-          cp gh-pages/history target/allure-results/history
+          cp -r gh-pages/history target/allure-results/history
           allure generate target/allure-results --clean
           ls -la
 
