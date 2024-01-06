@@ -5,13 +5,13 @@
     "children" : [ {
       "children" : [ {
         "name" : "Login User And Pass",
-        "uid" : "719fa37186448c41",
+        "uid" : "8d33a76daa4e9a1b",
         "parentUid" : "a15971e48ddfd2dfbfc5062500b234d9",
         "status" : "passed",
         "time" : {
-          "start" : 1704510379431,
-          "stop" : 1704510381792,
-          "duration" : 2361
+          "start" : 1704511075166,
+          "stop" : 1704511077495,
+          "duration" : 2329
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,13 +22,13 @@
         "parameters" : [ "usuario", "contrasena" ]
       }, {
         "name" : "Login User And Pass",
-        "uid" : "67791a1f85355e3a",
+        "uid" : "ab302fc1d7308b9a",
         "parentUid" : "a15971e48ddfd2dfbfc5062500b234d9",
         "status" : "passed",
         "time" : {
-          "start" : 1704510385183,
-          "stop" : 1704510385334,
-          "duration" : 151
+          "start" : 1704511080891,
+          "stop" : 1704511081036,
+          "duration" : 145
         },
         "flaky" : false,
         "newFailed" : false,
@@ -47,13 +47,13 @@
       "name" : "Elemento no presente ",
       "children" : [ {
         "name" : "Login User And Pass",
-        "uid" : "1032fbc46d86713",
+        "uid" : "95b419ca6980e24c",
         "parentUid" : "4eac0b06fa612726a87171a032a78514",
         "status" : "failed",
         "time" : {
-          "start" : 1704510382446,
-          "stop" : 1704510384699,
-          "duration" : 2253
+          "start" : 1704511078121,
+          "stop" : 1704511080410,
+          "duration" : 2289
         },
         "flaky" : false,
         "newFailed" : false,
@@ -72,13 +72,13 @@
       "name" : "Elemento no presente ",
       "children" : [ {
         "name" : "Login User And Pass",
-        "uid" : "1032fbc46d86713",
+        "uid" : "95b419ca6980e24c",
         "parentUid" : "85018cd910dc74e2b8e6ecf817374cec",
         "status" : "failed",
         "time" : {
-          "start" : 1704510382446,
-          "stop" : 1704510384699,
-          "duration" : 2253
+          "start" : 1704511078121,
+          "stop" : 1704511080410,
+          "duration" : 2289
         },
         "flaky" : false,
         "newFailed" : false,
