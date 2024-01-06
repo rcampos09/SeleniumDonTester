@@ -1,12 +1,12 @@
 {
-  "uid" : "5d505514e52877a6",
+  "uid" : "719fa37186448c41",
   "name" : "Login User And Pass",
-  "fullName" : "test.TestClass02.testExample02",
-  "historyId" : "5d4702c5775bc9e616c2b17d614b3617",
+  "fullName" : "test.TestClass00.testExample00",
+  "historyId" : "89820e171c38d9a45bcf7cd04f961577",
   "time" : {
-    "start" : 1704507943230,
-    "stop" : 1704507943380,
-    "duration" : 150
+    "start" : 1704510379431,
+    "stop" : 1704510381792,
+    "duration" : 2361
   },
   "description" : "Esta prueba intenta iniciar sesión en el sitio web utilizando un nombre de usuario y una contraseña. Falla si ocurre algún error.",
   "descriptionHtml" : "<p>Esta prueba intenta iniciar sesión en el sitio web utilizando un nombre de usuario y una contraseña. Falla si ocurre algún error.</p>\n",
@@ -20,8 +20,8 @@
   "beforeStages" : [ {
     "name" : "beforeSuite",
     "time" : {
-      "start" : 1704507935541,
-      "stop" : 1704507935548,
+      "start" : 1704510377390,
+      "stop" : 1704510377397,
       "duration" : 7
     },
     "description" : "",
@@ -36,9 +36,9 @@
   }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1704507942827,
-      "stop" : 1704507943225,
-      "duration" : 398
+      "start" : 1704510377430,
+      "stop" : 1704510379366,
+      "duration" : 1936
     },
     "description" : "",
     "status" : "passed",
@@ -56,9 +56,9 @@
     "steps" : [ {
       "name" : "Este es el: usuario parametro, y este es la contraseña: contrasena",
       "time" : {
-        "start" : 1704507943230,
-        "stop" : 1704507943334,
-        "duration" : 104
+        "start" : 1704510379587,
+        "stop" : 1704510379723,
+        "duration" : 136
       },
       "status" : "passed",
       "steps" : [ ],
@@ -74,10 +74,25 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
+    }, {
+      "name" : "Valida texto Alerta de Login",
+      "time" : {
+        "start" : 1704510379775,
+        "stop" : 1704510381787,
+        "duration" : 2012
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
+    "stepsCount" : 2,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -85,9 +100,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1704507943382,
-      "stop" : 1704507943453,
-      "duration" : 71
+      "start" : 1704510381883,
+      "stop" : 1704510381963,
+      "duration" : 80
     },
     "description" : "",
     "status" : "passed",
@@ -101,9 +116,9 @@
   }, {
     "name" : "afterSuite",
     "time" : {
-      "start" : 1704507943482,
-      "stop" : 1704507943486,
-      "duration" : 4
+      "start" : 1704510385435,
+      "stop" : 1704510385440,
+      "duration" : 5
     },
     "description" : "",
     "status" : "passed",
@@ -117,13 +132,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "test.TestClass02"
+    "value" : "test.TestClass00"
   }, {
     "name" : "testClass",
-    "value" : "test.TestClass02"
+    "value" : "test.TestClass00"
   }, {
     "name" : "testMethod",
-    "value" : "testExample02"
+    "value" : "testExample00"
   }, {
     "name" : "parentSuite",
     "value" : "MiSuiteDePruebas"
@@ -132,13 +147,13 @@
     "value" : "Test Suite (Demo-Shop-t-shirt)"
   }, {
     "name" : "subSuite",
-    "value" : "test.TestClass02"
+    "value" : "test.TestClass00"
   }, {
     "name" : "host",
-    "value" : "fv-az802-323"
+    "value" : "fv-az585-38"
   }, {
     "name" : "thread",
-    "value" : "2953@fv-az802-323.main(1)"
+    "value" : "2976@fv-az585-38.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -166,8 +181,8 @@
     "value" : "contrasena"
   } ],
   "links" : [ {
-    "name" : "DTI-002",
-    "url" : "https://atlassian.jira.com/issue/DTI-002",
+    "name" : "DTI-000",
+    "url" : "https://atlassian.jira.com/issue/DTI-000",
     "type" : "issue"
   }, {
     "name" : "Website",
@@ -185,8 +200,28 @@
       "matchedStatuses" : [ "passed" ],
       "flaky" : false
     } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "346b52d59689cce7",
+        "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/346b52d59689cce7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704507937551,
+          "stop" : 1704507939874,
+          "duration" : 2323
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "5d505514e52877a6.json",
+  "source" : "719fa37186448c41.json",
   "parameterValues" : [ "usuario", "contrasena" ]
 }
