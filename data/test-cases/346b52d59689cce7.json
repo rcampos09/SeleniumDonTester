@@ -1,12 +1,12 @@
 {
-  "uid" : "5837bb6d92a87839",
+  "uid" : "346b52d59689cce7",
   "name" : "Login User And Pass",
   "fullName" : "test.TestClass00.testExample00",
   "historyId" : "89820e171c38d9a45bcf7cd04f961577",
   "time" : {
-    "start" : 1704487742502,
-    "stop" : 1704487744894,
-    "duration" : 2392
+    "start" : 1704507937551,
+    "stop" : 1704507939874,
+    "duration" : 2323
   },
   "description" : "Esta prueba intenta iniciar sesión en el sitio web utilizando un nombre de usuario y una contraseña. Falla si ocurre algún error.",
   "descriptionHtml" : "<p>Esta prueba intenta iniciar sesión en el sitio web utilizando un nombre de usuario y una contraseña. Falla si ocurre algún error.</p>\n",
@@ -20,8 +20,8 @@
   "beforeStages" : [ {
     "name" : "beforeSuite",
     "time" : {
-      "start" : 1704487740232,
-      "stop" : 1704487740239,
+      "start" : 1704507935541,
+      "stop" : 1704507935548,
       "duration" : 7
     },
     "description" : "",
@@ -36,9 +36,9 @@
   }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1704487740268,
-      "stop" : 1704487742444,
-      "duration" : 2176
+      "start" : 1704507935582,
+      "stop" : 1704507937488,
+      "duration" : 1906
     },
     "description" : "",
     "status" : "passed",
@@ -56,9 +56,9 @@
     "steps" : [ {
       "name" : "Este es el: usuario parametro, y este es la contraseña: contrasena",
       "time" : {
-        "start" : 1704487742659,
-        "stop" : 1704487742811,
-        "duration" : 152
+        "start" : 1704507937693,
+        "stop" : 1704507937808,
+        "duration" : 115
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,8 +77,8 @@
     }, {
       "name" : "Valida texto Alerta de Login",
       "time" : {
-        "start" : 1704487742874,
-        "stop" : 1704487744886,
+        "start" : 1704507937858,
+        "stop" : 1704507939870,
         "duration" : 2012
       },
       "status" : "passed",
@@ -100,9 +100,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1704487744978,
-      "stop" : 1704487745053,
-      "duration" : 75
+      "start" : 1704507939959,
+      "stop" : 1704507940037,
+      "duration" : 78
     },
     "description" : "",
     "status" : "passed",
@@ -116,9 +116,9 @@
   }, {
     "name" : "afterSuite",
     "time" : {
-      "start" : 1704487749363,
-      "stop" : 1704487749370,
-      "duration" : 7
+      "start" : 1704507943482,
+      "stop" : 1704507943486,
+      "duration" : 4
     },
     "description" : "",
     "status" : "passed",
@@ -150,10 +150,10 @@
     "value" : "test.TestClass00"
   }, {
     "name" : "host",
-    "value" : "fv-az525-405"
+    "value" : "fv-az802-323"
   }, {
     "name" : "thread",
-    "value" : "2925@fv-az525-405.main(1)"
+    "value" : "2953@fv-az802-323.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -202,6 +202,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "5837bb6d92a87839.json",
+  "source" : "346b52d59689cce7.json",
   "parameterValues" : [ "usuario", "contrasena" ]
 }

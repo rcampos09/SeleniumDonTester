@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5837bb6d92a87839",
-      "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/5837bb6d92a87839",
+      "uid" : "346b52d59689cce7",
+      "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/346b52d59689cce7",
       "status" : "passed",
       "time" : {
-        "start" : 1704487742502,
-        "stop" : 1704487744894,
-        "duration" : 2392
+        "start" : 1704507937551,
+        "stop" : 1704507939874,
+        "duration" : 2323
       }
     } ]
   },
@@ -29,14 +29,14 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d71787017fe809c4",
-      "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/d71787017fe809c4",
+      "uid" : "2ab4c6d9693b77d5",
+      "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/2ab4c6d9693b77d5",
       "status" : "failed",
       "statusDetails" : "Elemento no presente ",
       "time" : {
-        "start" : 1704487746333,
-        "stop" : 1704487748586,
-        "duration" : 2253
+        "start" : 1704507940457,
+        "stop" : 1704507942749,
+        "duration" : 2292
       }
     } ]
   },
@@ -50,13 +50,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e4b39c127a621695",
-      "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/e4b39c127a621695",
+      "uid" : "5d505514e52877a6",
+      "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/5d505514e52877a6",
       "status" : "passed",
       "time" : {
-        "start" : 1704487749120,
-        "stop" : 1704487749266,
-        "duration" : 146
+        "start" : 1704507943230,
+        "stop" : 1704507943380,
+        "duration" : 150
       }
     } ]
   }
