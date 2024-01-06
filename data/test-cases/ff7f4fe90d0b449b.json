@@ -1,12 +1,12 @@
 {
-  "uid" : "ab302fc1d7308b9a",
+  "uid" : "ff7f4fe90d0b449b",
   "name" : "Login User And Pass",
-  "fullName" : "test.TestClass02.testExample02",
-  "historyId" : "5d4702c5775bc9e616c2b17d614b3617",
+  "fullName" : "test.TestClass00.testExample00",
+  "historyId" : "89820e171c38d9a45bcf7cd04f961577",
   "time" : {
-    "start" : 1704511080891,
-    "stop" : 1704511081036,
-    "duration" : 145
+    "start" : 1704575529149,
+    "stop" : 1704575531501,
+    "duration" : 2352
   },
   "description" : "Esta prueba intenta iniciar sesión en el sitio web utilizando un nombre de usuario y una contraseña. Falla si ocurre algún error.",
   "descriptionHtml" : "<p>Esta prueba intenta iniciar sesión en el sitio web utilizando un nombre de usuario y una contraseña. Falla si ocurre algún error.</p>\n",
@@ -20,9 +20,9 @@
   "beforeStages" : [ {
     "name" : "beforeSuite",
     "time" : {
-      "start" : 1704511073167,
-      "stop" : 1704511073176,
-      "duration" : 9
+      "start" : 1704575524762,
+      "stop" : 1704575524769,
+      "duration" : 7
     },
     "description" : "",
     "status" : "passed",
@@ -36,9 +36,9 @@
   }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1704511080487,
-      "stop" : 1704511080886,
-      "duration" : 399
+      "start" : 1704575524798,
+      "stop" : 1704575529081,
+      "duration" : 4283
     },
     "description" : "",
     "status" : "passed",
@@ -56,9 +56,9 @@
     "steps" : [ {
       "name" : "Este es el: usuario parametro, y este es la contraseña: contrasena",
       "time" : {
-        "start" : 1704511080892,
-        "stop" : 1704511080993,
-        "duration" : 101
+        "start" : 1704575529306,
+        "stop" : 1704575529435,
+        "duration" : 129
       },
       "status" : "passed",
       "steps" : [ ],
@@ -74,10 +74,25 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
+    }, {
+      "name" : "Valida texto Alerta de Login",
+      "time" : {
+        "start" : 1704575529480,
+        "stop" : 1704575531495,
+        "duration" : 2015
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
+    "stepsCount" : 2,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -85,9 +100,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1704511081038,
-      "stop" : 1704511081106,
-      "duration" : 68
+      "start" : 1704575531572,
+      "stop" : 1704575531651,
+      "duration" : 79
     },
     "description" : "",
     "status" : "passed",
@@ -101,8 +116,8 @@
   }, {
     "name" : "afterSuite",
     "time" : {
-      "start" : 1704511081134,
-      "stop" : 1704511081138,
+      "start" : 1704575535039,
+      "stop" : 1704575535043,
       "duration" : 4
     },
     "description" : "",
@@ -117,13 +132,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "test.TestClass02"
+    "value" : "test.TestClass00"
   }, {
     "name" : "testClass",
-    "value" : "test.TestClass02"
+    "value" : "test.TestClass00"
   }, {
     "name" : "testMethod",
-    "value" : "testExample02"
+    "value" : "testExample00"
   }, {
     "name" : "parentSuite",
     "value" : "MiSuiteDePruebas"
@@ -132,13 +147,13 @@
     "value" : "Test Suite (Demo-Shop-t-shirt)"
   }, {
     "name" : "subSuite",
-    "value" : "test.TestClass02"
+    "value" : "test.TestClass00"
   }, {
     "name" : "host",
-    "value" : "fv-az1198-580"
+    "value" : "fv-az692-848"
   }, {
     "name" : "thread",
-    "value" : "3005@fv-az1198-580.main(1)"
+    "value" : "2926@fv-az692-848.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -166,8 +181,8 @@
     "value" : "contrasena"
   } ],
   "links" : [ {
-    "name" : "DTI-002",
-    "url" : "https://atlassian.jira.com/issue/DTI-002",
+    "name" : "DTI-000",
+    "url" : "https://atlassian.jira.com/issue/DTI-000",
     "type" : "issue"
   }, {
     "name" : "Website",
@@ -190,32 +205,41 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 3,
+        "passed" : 4,
         "unknown" : 0,
-        "total" : 3
+        "total" : 4
       },
       "items" : [ {
-        "uid" : "67791a1f85355e3a",
-        "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/67791a1f85355e3a",
+        "uid" : "8d33a76daa4e9a1b",
+        "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/8d33a76daa4e9a1b",
         "status" : "passed",
         "time" : {
-          "start" : 1704510385183,
-          "stop" : 1704510385334,
-          "duration" : 151
+          "start" : 1704511075166,
+          "stop" : 1704511077495,
+          "duration" : 2329
         }
       }, {
-        "uid" : "5d505514e52877a6",
-        "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/5d505514e52877a6",
+        "uid" : "719fa37186448c41",
+        "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/719fa37186448c41",
         "status" : "passed",
         "time" : {
-          "start" : 1704507943230,
-          "stop" : 1704507943380,
-          "duration" : 150
+          "start" : 1704510379431,
+          "stop" : 1704510381792,
+          "duration" : 2361
+        }
+      }, {
+        "uid" : "346b52d59689cce7",
+        "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/346b52d59689cce7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1704507937551,
+          "stop" : 1704507939874,
+          "duration" : 2323
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "ab302fc1d7308b9a.json",
+  "source" : "ff7f4fe90d0b449b.json",
   "parameterValues" : [ "usuario", "contrasena" ]
 }

@@ -25,4 +25,13 @@
     "Failed tests" : 1,
     "Passed tests" : 2
   }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "http://example.org/build#7/AllureReport",
+  "reportName" : "Demo allure report",
+  "data" : {
+    "Assertion Errors" : 1,
+    "Failed tests" : 1,
+    "Passed tests" : 2
+  }
 } ]
