@@ -1,14 +1,24 @@
 {
   "105f03f7e3db8a7a55e8916cf8dc5784" : {
     "statistic" : {
-      "failed" : 4,
+      "failed" : 5,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "d6f17ddb500bdf78",
+      "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/d6f17ddb500bdf78",
+      "status" : "failed",
+      "statusDetails" : "Elemento no presente ",
+      "time" : {
+        "start" : 1705009345650,
+        "stop" : 1705009347911,
+        "duration" : 2261
+      }
+    }, {
       "uid" : "aa7077ac08aa5ec9",
       "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/aa7077ac08aa5ec9",
       "status" : "failed",
@@ -55,11 +65,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "8924eb6de3068693",
+      "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/8924eb6de3068693",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705009342727,
+        "stop" : 1705009345055,
+        "duration" : 2328
+      }
+    }, {
       "uid" : "ff7f4fe90d0b449b",
       "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/ff7f4fe90d0b449b",
       "status" : "passed",
@@ -102,11 +121,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "c02680fb8ed763ff",
+      "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/c02680fb8ed763ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705009348372,
+        "stop" : 1705009348515,
+        "duration" : 143
+      }
+    }, {
       "uid" : "cb1f54db13c47c8e",
       "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/cb1f54db13c47c8e",
       "status" : "passed",

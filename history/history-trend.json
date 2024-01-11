@@ -46,4 +46,16 @@
     "unknown" : 0,
     "total" : 3
   }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "http://example.org/build#7/AllureReport",
+  "reportName" : "Demo allure report",
+  "data" : {
+    "failed" : 1,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 3
+  }
 } ]
