@@ -1,8 +1,8 @@
 # Selenium Allure Java Maven (by DonTester)
 
-"Este proyecto, denominado SeleniumAllureJavaMaven, utiliza Selenium, TestNG, Allure Report, Chrome --headless o 
+"Este proyecto, denominado SeleniumDonTester, utiliza Selenium, TestNG, Allure Report, Chrome --headless o 
 Selenoid Hub, para realizar pruebas automatizadas en un sitio web. 
-Ejemplo: https://rcampos09.github.io/demo-Shop-t-shirt/index.html. 
+Ejemplo: https://rcampos09.github.io/http-demo-Shop-t-shirt/index.html. 
 A continuación, se proporciona información sobre cómo configurar y ejecutar las pruebas, 
 así como detalles sobre el caso de prueba de ejemplo."
 
