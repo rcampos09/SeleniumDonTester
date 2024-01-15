@@ -1,12 +1,12 @@
 {
-  "uid" : "8924eb6de3068693",
+  "uid" : "fd452d7a420f2fc4",
   "name" : "Login User And Pass",
   "fullName" : "test.TestClass00.testExample00",
   "historyId" : "89820e171c38d9a45bcf7cd04f961577",
   "time" : {
-    "start" : 1705009342727,
-    "stop" : 1705009345055,
-    "duration" : 2328
+    "start" : 1705331706806,
+    "stop" : 1705331709173,
+    "duration" : 2367
   },
   "description" : "Esta prueba intenta iniciar sesión en el sitio web utilizando un nombre de usuario y una contraseña. Falla si ocurre algún error.",
   "descriptionHtml" : "<p>Esta prueba intenta iniciar sesión en el sitio web utilizando un nombre de usuario y una contraseña. Falla si ocurre algún error.</p>\n",
@@ -20,9 +20,9 @@
   "beforeStages" : [ {
     "name" : "beforeSuite",
     "time" : {
-      "start" : 1705009341109,
-      "stop" : 1705009341114,
-      "duration" : 5
+      "start" : 1705331704796,
+      "stop" : 1705331704806,
+      "duration" : 10
     },
     "description" : "",
     "status" : "passed",
@@ -36,9 +36,9 @@
   }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1705009341144,
-      "stop" : 1705009342658,
-      "duration" : 1514
+      "start" : 1705331704840,
+      "stop" : 1705331706737,
+      "duration" : 1897
     },
     "description" : "",
     "status" : "passed",
@@ -56,9 +56,9 @@
     "steps" : [ {
       "name" : "Este es el: usuario parametro, y este es la contraseña: contrasena",
       "time" : {
-        "start" : 1705009342872,
-        "stop" : 1705009342987,
-        "duration" : 115
+        "start" : 1705331706971,
+        "stop" : 1705331707109,
+        "duration" : 138
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Valida texto Alerta de Login",
       "time" : {
-        "start" : 1705009343036,
-        "stop" : 1705009345049,
-        "duration" : 2013
+        "start" : 1705331707154,
+        "stop" : 1705331709168,
+        "duration" : 2014
       },
       "status" : "passed",
       "steps" : [ ],
@@ -100,9 +100,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1705009345140,
-      "stop" : 1705009345217,
-      "duration" : 77
+      "start" : 1705331709255,
+      "stop" : 1705331709330,
+      "duration" : 75
     },
     "description" : "",
     "status" : "passed",
@@ -116,8 +116,8 @@
   }, {
     "name" : "afterSuite",
     "time" : {
-      "start" : 1705009348613,
-      "stop" : 1705009348618,
+      "start" : 1705331713446,
+      "stop" : 1705331713451,
       "duration" : 5
     },
     "description" : "",
@@ -150,10 +150,10 @@
     "value" : "test.TestClass00"
   }, {
     "name" : "host",
-    "value" : "fv-az1210-462"
+    "value" : "fv-az568-960"
   }, {
     "name" : "thread",
-    "value" : "3091@fv-az1210-462.main(1)"
+    "value" : "3014@fv-az568-960.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -205,11 +205,20 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 5,
+        "passed" : 6,
         "unknown" : 0,
-        "total" : 5
+        "total" : 6
       },
       "items" : [ {
+        "uid" : "8924eb6de3068693",
+        "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/8924eb6de3068693",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705009342727,
+          "stop" : 1705009345055,
+          "duration" : 2328
+        }
+      }, {
         "uid" : "ff7f4fe90d0b449b",
         "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/ff7f4fe90d0b449b",
         "status" : "passed",
@@ -249,6 +258,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "8924eb6de3068693.json",
+  "source" : "fd452d7a420f2fc4.json",
   "parameterValues" : [ "usuario", "contrasena" ]
 }

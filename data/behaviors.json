@@ -4,13 +4,13 @@
     "name" : "DTS-000",
     "children" : [ {
       "name" : "Login User And Pass",
-      "uid" : "8924eb6de3068693",
+      "uid" : "fd452d7a420f2fc4",
       "parentUid" : "617c4982d50d6c6e44a504e46fbad726",
       "status" : "passed",
       "time" : {
-        "start" : 1705009342727,
-        "stop" : 1705009345055,
-        "duration" : 2328
+        "start" : 1705331706806,
+        "stop" : 1705331709173,
+        "duration" : 2367
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,13 +21,13 @@
       "parameters" : [ "usuario", "contrasena" ]
     }, {
       "name" : "Login User And Pass",
-      "uid" : "d6f17ddb500bdf78",
+      "uid" : "6e3f3362ee682e24",
       "parentUid" : "617c4982d50d6c6e44a504e46fbad726",
       "status" : "failed",
       "time" : {
-        "start" : 1705009345650,
-        "stop" : 1705009347911,
-        "duration" : 2261
+        "start" : 1705331709943,
+        "stop" : 1705331712241,
+        "duration" : 2298
       },
       "flaky" : false,
       "newFailed" : false,
@@ -38,13 +38,13 @@
       "parameters" : [ "usuario", "contrasena" ]
     }, {
       "name" : "Login User And Pass",
-      "uid" : "c02680fb8ed763ff",
+      "uid" : "55d5c99af5239c5a",
       "parentUid" : "617c4982d50d6c6e44a504e46fbad726",
       "status" : "passed",
       "time" : {
-        "start" : 1705009348372,
-        "stop" : 1705009348515,
-        "duration" : 143
+        "start" : 1705331713197,
+        "stop" : 1705331713347,
+        "duration" : 150
       },
       "flaky" : false,
       "newFailed" : false,

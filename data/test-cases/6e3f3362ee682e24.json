@@ -1,12 +1,12 @@
 {
-  "uid" : "d6f17ddb500bdf78",
+  "uid" : "6e3f3362ee682e24",
   "name" : "Login User And Pass",
   "fullName" : "test.TestClass01.testExample01",
   "historyId" : "105f03f7e3db8a7a55e8916cf8dc5784",
   "time" : {
-    "start" : 1705009345650,
-    "stop" : 1705009347911,
-    "duration" : 2261
+    "start" : 1705331709943,
+    "stop" : 1705331712241,
+    "duration" : 2298
   },
   "description" : "Esta prueba intenta iniciar sesión en el sitio web utilizando un nombre de usuario y una contraseña. Falla si ocurre algún error.",
   "descriptionHtml" : "<p>Esta prueba intenta iniciar sesión en el sitio web utilizando un nombre de usuario y una contraseña. Falla si ocurre algún error.</p>\n",
@@ -22,9 +22,9 @@
   "beforeStages" : [ {
     "name" : "beforeSuite",
     "time" : {
-      "start" : 1705009341109,
-      "stop" : 1705009341114,
-      "duration" : 5
+      "start" : 1705331704796,
+      "stop" : 1705331704806,
+      "duration" : 10
     },
     "description" : "",
     "status" : "passed",
@@ -38,9 +38,9 @@
   }, {
     "name" : "setUp",
     "time" : {
-      "start" : 1705009345219,
-      "stop" : 1705009345646,
-      "duration" : 427
+      "start" : 1705331709332,
+      "stop" : 1705331709939,
+      "duration" : 607
     },
     "description" : "",
     "status" : "passed",
@@ -60,9 +60,9 @@
     "steps" : [ {
       "name" : "Este es el: usuario parametro, y este es la contraseña: contrasena",
       "time" : {
-        "start" : 1705009345651,
-        "stop" : 1705009345750,
-        "duration" : 99
+        "start" : 1705331709944,
+        "stop" : 1705331710053,
+        "duration" : 109
       },
       "status" : "passed",
       "steps" : [ ],
@@ -81,9 +81,9 @@
     }, {
       "name" : "Aceptar Alerta de Login",
       "time" : {
-        "start" : 1705009345794,
-        "stop" : 1705009347804,
-        "duration" : 2010
+        "start" : 1705331710098,
+        "stop" : 1705331712109,
+        "duration" : 2011
       },
       "status" : "passed",
       "steps" : [ ],
@@ -95,9 +95,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "1ebd0fb37f982614",
+      "uid" : "3de99155822753d6",
       "name" : "Elemento no presente",
-      "source" : "1ebd0fb37f982614.png",
+      "source" : "3de99155822753d6.png",
       "type" : "image/png",
       "size" : 83991
     } ],
@@ -110,9 +110,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1705009347919,
-      "stop" : 1705009347992,
-      "duration" : 73
+      "start" : 1705331712249,
+      "stop" : 1705331712319,
+      "duration" : 70
     },
     "description" : "",
     "status" : "passed",
@@ -126,8 +126,8 @@
   }, {
     "name" : "afterSuite",
     "time" : {
-      "start" : 1705009348613,
-      "stop" : 1705009348618,
+      "start" : 1705331713446,
+      "stop" : 1705331713451,
       "duration" : 5
     },
     "description" : "",
@@ -160,10 +160,10 @@
     "value" : "test.TestClass01"
   }, {
     "name" : "host",
-    "value" : "fv-az1210-462"
+    "value" : "fv-az568-960"
   }, {
     "name" : "thread",
-    "value" : "3091@fv-az1210-462.main(1)"
+    "value" : "3014@fv-az568-960.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -217,14 +217,24 @@
     } ],
     "history" : {
       "statistic" : {
-        "failed" : 5,
+        "failed" : 6,
         "broken" : 0,
         "skipped" : 0,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 5
+        "total" : 6
       },
       "items" : [ {
+        "uid" : "d6f17ddb500bdf78",
+        "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/d6f17ddb500bdf78",
+        "status" : "failed",
+        "statusDetails" : "Elemento no presente ",
+        "time" : {
+          "start" : 1705009345650,
+          "stop" : 1705009347911,
+          "duration" : 2261
+        }
+      }, {
         "uid" : "aa7077ac08aa5ec9",
         "reportUrl" : "http://example.org/build#7/AllureReport/#testresult/aa7077ac08aa5ec9",
         "status" : "failed",
@@ -268,6 +278,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "d6f17ddb500bdf78.json",
+  "source" : "6e3f3362ee682e24.json",
   "parameterValues" : [ "usuario", "contrasena" ]
 }
